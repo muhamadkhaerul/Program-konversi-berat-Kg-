@@ -1,0 +1,20 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    cout << "------Konversi Berat (Kg)------" << endl;
+    float Berat;
+    cout << "Masukan Berat (Kg):" << endl;
+    cin >> Berat;
+    cout << "Hasil Konversi" << endl;
+    cout << "hg  = "; cout << Berat*10 << endl;
+    cout << "dag = "; cout << Berat*100 << endl;
+    cout << "g   = "; cout << Berat*1000 << endl;
+    cout << "dg  = "; cout << Berat*10000 << endl;
+    cout << "cg  = "; cout << Berat*100000 << endl;
+
+    cin.get();
+    return 0;
+}
